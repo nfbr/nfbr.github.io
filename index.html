@@ -68,7 +68,12 @@
                             <div class="parallax-image">
                                 <img src="assets/img/nfbr_1080x608.png"/>
                             </div>
-                            <img class="img-responsive" style="max-height: 60px;" src="assets/img/nfce.png"/>
+
+                            <div class="col-sm-6 pull-right"><img class="img-responsive" style="max-height: 60px;" src="assets/img/nfce.png"/></div>
+
+                            <a href="mailto:contato@nfbr.com.br" class="btn btn-sm btn-fill btn-neutral pull-right">
+                                <i class="fa fa-envelope"></i> Fale conosco
+                            </a>
                         </div>
                         <div class="col-sm-5">
                             <div class="description text-center">
@@ -76,8 +81,19 @@
                                 <br>
                                 <h5><strong>Emissão rápida e fácil!</strong><br>A partir de *<strong><span class="preco text-danger">R$19,90</span></strong>/Mês<br>(<small>* Plano Anual</small>)</h5>
                                 <div class="buttons">
-                                    <a href="mailto:contato@nfbr.com.br" class="btn btn-fill btn-neutral">
-                                    <i class="fa fa-envelope"></i> Fale conosco
+                                    <!-- INICIO FORMULARIO BOTAO PAGSEGURO: NAO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                                    <form action="https://pagseguro.uol.com.br/pre-approvals/request.html" method="post">
+                                        <input type="hidden" name="code" value="562115840E0E25B444FE4FBED90CBBAF" />
+                                        <input type="hidden" name="iot" value="button" />
+
+                                        <button type="submit" class="btn btn-lg btn-fill btn-group-justified btn-facebook" name="submit">
+                                            <i class="fa fa-shopping-cart"></i> <strong> Compre agora</strong>
+                                        </button>
+                                    </form>
+                                    <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+
+                                    <a style="margin-top: 2rem;" href="mailto:contato@nfbr.com.br" class="visible-xs btn btn-sm btn-fill btn-neutral">
+                                        <i class="fa fa-envelope"></i> Fale conosco
                                     </a>
                                 </div>
                             </div>
